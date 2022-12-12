@@ -1,0 +1,61 @@
+@font-face{
+    
+--Family: [Outfit](https://fonts.google.com/specimen/Outfit);
+--Weights: 400, 700;
+
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+} 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Light-gray);
+    margin-top: 180px;
+    margin-left:129px ;
+     
+     
+}
+img{
+    width: 150px;
+    border-radius: 9px;
+    margin-left: 15px;
+    margin-top:10px ;
+
+}
+.card-img{
+    width: 48%;
+    height: 300px;
+    border-radius: 10px;
+    background: var(--White) ;
+}
+h5{
+  margin: 10px 2px 0px 10px;
+   font-family: sans-serif;
+   
+   
+}
+p{
+    font-size:xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px 0px 20px; 
+    display: flex;
+    align-items: center;
+
+}
+.attribution{
+    font-size:12px ;
+    position: absolute;
+    margin-top: 320px;
+    margin-right: 200px;
+}
